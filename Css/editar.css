@@ -1,0 +1,73 @@
+body {
+    margin-bottom: 60px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondos-para-páginas-web-6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.card{
+    width: 100%;
+    max-width: 400%;
+    color:#17202A ;
+    padding: 50px 35px;
+    border: 1px solid rgba(255,255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+}
+
+#TituloEditar {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 9px;
+    margin-left: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card.content.card-body.form,.form-control{
+    background: rgba(0,0,255,.1);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.card.content.card-body.form,.form-label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#CancelarEditar{
+    margin-top: 30px;
+    background: #EC7063;
+    border-radius: 20px;
+    box-shadow: 5px 5px #B2BABB;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#GuardarEditar{
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #B2BABB;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
